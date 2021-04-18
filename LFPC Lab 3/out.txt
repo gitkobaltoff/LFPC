@@ -1,0 +1,8 @@
+S -> D A | A B | B D | a | B A1 | b | B A
+A -> B D | a | B A1 | b | B A
+A1 -> D A2 | A B
+A2 -> A B
+B -> b | B A
+D -> B A
+C -> B A
+S0 -> D A | A B | B D | a | B A1 | b | B A
